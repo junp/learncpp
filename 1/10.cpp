@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  3.cpp
+ *       Filename:  10.cpp
  *
- *    Description:  3,cpp
+ *    Description:  10.cpp
  *
  *        Version:  1.0
- *        Created:  2014/08/25 21时17分38秒
+ *        Created:  2014/08/26 07时53分11秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -16,8 +16,13 @@
  * =====================================================================================
  */
 #include <stdlib.h>
+#include <iostream>
 
 int main(){
-	std::cout << "Hello World" << std::endl;
+	int sum = 0;
+	for(int i = 50; i <= 100; ++i){
+		sum += i;
+	}
+	std::cout << "The sum is " << sum << std::endl;
 	return 0;
 }

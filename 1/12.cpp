@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  4.cpp
+ *       Filename:  12.cpp
  *
- *    Description:  4.cpp
+ *    Description:  12
  *
  *        Version:  1.0
- *        Created:  2014/08/25 21时21分20秒
+ *        Created:  2014/08/26 07时57分04秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -16,14 +16,13 @@
  * =====================================================================================
  */
 #include <stdlib.h>
-
 #include <iostream>
 
 int main(){
-	std::cin << "Input two num: " << std::endl;
-	int v1, v2;
-	std::cin >> v1 >> v2;
-
-	std::cout<< "v1 * v2 = " << v1 * v2 << std::endl;
+	int idx = 10;
+	while(idx >= 0){
+		std::cout << idx << std::endl;
+		--idx;
+	}
 	return 0;
-}
+}	

@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  6.cpp
+ *       Filename:  13.cpp
  *
- *    Description:  6.cpp
+ *    Description:  13
  *
  *        Version:  1.0
- *        Created:  2014/08/25 21时58分10秒
+ *        Created:  2014/08/26 07时59分44秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -19,10 +19,8 @@
 #include <iostream>
 
 int main(){
-	std::cout << "/*";
-	std::cout << "*/";
-	std::cout << /* "*/ */;
-	std::cout << std::endl;
-
+	for(int idx = 10; idx >= 0; --idx){
+		std::cout << idx << std::endl;
+	}
 	return 0;
 }

@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  2.cpp
+ *       Filename:  11.cpp
  *
- *    Description:  iostream
+ *    Description:  11.cpp
  *
  *        Version:  1.0
- *        Created:  2014/08/25 20时50分07秒
+ *        Created:  2014/08/26 07时54分37秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -19,11 +19,12 @@
 #include <iostream>
 
 int main(){
-	std::count << "Enter two numbers:" << std::endl;
-	int v1, v2;
-
-	std::cin >> v1 >> v2;
-	std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << std::endl;
-
+	int sum = 0;
+	int i = 50;
+	while(i <= 100){
+		sum += i;
+		++i;
+	}
+	std::cout << "The sum is " << sum << std::endl;
 	return 0;
 }
